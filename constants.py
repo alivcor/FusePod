@@ -1,0 +1,3 @@
+
+
+MIN_HABITABILITY = 0
