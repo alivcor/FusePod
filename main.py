@@ -3,6 +3,7 @@
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 from enum import Enum
+from world import *
 
 class Nucleobase(Enum):
     A = "Adenine"
@@ -36,5 +37,8 @@ if __name__ == '__main__':
     uracil = Nucleotide(Nucleobase.U)
     print(adenine.canPair(guanine))
     print(adenine.canPair(uracil))
+
+    world = World(5)
+    print(world)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
